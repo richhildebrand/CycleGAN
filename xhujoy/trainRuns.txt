@@ -1,0 +1,1 @@
+python main.py --dataset_dir=change_numbers --checkpoint_dir=./datasets/change_numbers/model --epoch=63 --load_size=572 --fine_size=512

@@ -1,0 +1,21 @@
+python main.py --dataset_dir=football --phase=test --which_direction=AtoB --test_dir=./datasets/football/testB --checkpoint_dir=./datasets/football/model --load_size=1144 --fine_size=1024
+
+python main.py --dataset_dir=numbers --phase=test --which_direction=AtoB --test_dir=./datasets/numbers/testB --checkpoint_dir=./datasets/numbers/model --load_size=1144 --fine_size=1024
+
+python main.py --dataset_dir=many_teams --phase=test --which_direction=AtoB --test_dir=./datasets/many_teams/testB --checkpoint_dir=./datasets/many_teams/model --load_size=1144 --fine_size=1024
+
+python main.py --dataset_dir=change_numbers --phase=test --which_direction=AtoB --test_dir=./datasets/change_numbers/testB --checkpoint_dir=./datasets/change_numbers/model --load_size=1144 --fine_size=1024
+
+python main.py --dataset_dir=spiderman --phase=test --which_direction=AtoB --test_dir=./datasets/spiderman/testB --checkpoint_dir=./datasets/spiderman/model --load_size=1144 --fine_size=1024
+
+
+
+
+--load_size=1716 --fine_size=1536
+
+
+
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;%PATH%
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;%PATH%
+SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%PATH%
+SET PATH=C:\tools\cuda\bin;%PATH%
